@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CompleteCircuit",
+            "request": "launch",
+            "mainClass": "CompleteCircuit",
+            "projectName": "JavaExercise_89b8d922"
+        }
+    ]
+}
