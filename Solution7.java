@@ -6,7 +6,7 @@ public class Solution7 {
         if (numRows == 1) return s;
 
         List<StringBuilder> rows = new ArrayList<>();
-        for (int i = 0; i < Math.min(numRows, s.length(); i++) {
+        for (int i = 0; i < Math.min(numRows, s.length()); i++) {
             rows.add(new StringBuilder());
         } 
 
