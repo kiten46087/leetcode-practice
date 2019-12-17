@@ -21,7 +21,7 @@ public class Solution299 {
         // }
 
         // TO DO
-
+        
         // Methods using array to find the cows
         int bulls = 0;
         int cows = 0;
