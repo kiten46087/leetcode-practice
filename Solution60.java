@@ -14,7 +14,9 @@ public class Solution60 {
             sum *= i;
             factorial[i] = sum;
         }
+        // factorial[] = {1, 1, 2, 6, 24, ... n!}
 
+        
         // create the list of numbers
         for (int i = 1; i <= n; i++) {
             numbers.add(i);
