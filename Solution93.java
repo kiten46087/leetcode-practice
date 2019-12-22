@@ -10,7 +10,7 @@ public class Solution93 {
 
     public void helper(String s, String temp, List<String> res, int n) {
         if (n == 4) {
-            if (s.length() == 0) res.add(temp.substring(0, temp.length() - 1);
+            if (s.length() == 0) res.add(temp.substring(0, temp.length() - 1));
             return;
         }
 
