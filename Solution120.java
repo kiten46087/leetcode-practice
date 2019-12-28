@@ -1,5 +1,6 @@
+import java.util.List;
+
 public class Solution120 {
-    private int min = Integer.MAX_VALUE;
 
     public int minimumTotal(List<List<Integer>> triangle) {
 
