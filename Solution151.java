@@ -1,0 +1,14 @@
+public class Solution151 {
+    public String reverseWords(String s) {
+        StringBuilder res = new StringBuilder();
+
+        for (int start = s.length() - 1; start >= 0; start -= 1) {
+            if (s.charAt(start) == ' ') continue;
+            int end = start;
+            while (start >= 0 && s.charAt(start) != ' ') start -= 1;
+            res.append(s.substring(start + 1, end + 1)).append(" ");
+        }
+
+        return res.toString().trim();
+    }
+}
