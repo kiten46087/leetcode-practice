@@ -26,6 +26,7 @@ public class Solution116 {
                 if (step.right != null && step.next != null) {
                     step.right.next = step.next.left;
                 }
+                step = step.next;
             }
             start = start.left;
         }
